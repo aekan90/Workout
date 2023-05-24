@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workout", "Workout\Workout.csproj", "{C16C9E03-D156-466C-A222-A27659CEDBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLayer", "ConsoleLayer\ConsoleLayer.csproj", "{47D893E3-DF2E-4569-9451-214CC6604335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{4792FCD6-AB80-4749-9D88-0A952F399617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16C9E03-D156-466C-A222-A27659CEDBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16C9E03-D156-466C-A222-A27659CEDBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16C9E03-D156-466C-A222-A27659CEDBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16C9E03-D156-466C-A222-A27659CEDBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D893E3-DF2E-4569-9451-214CC6604335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D893E3-DF2E-4569-9451-214CC6604335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D893E3-DF2E-4569-9451-214CC6604335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D893E3-DF2E-4569-9451-214CC6604335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4792FCD6-AB80-4749-9D88-0A952F399617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4792FCD6-AB80-4749-9D88-0A952F399617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4792FCD6-AB80-4749-9D88-0A952F399617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4792FCD6-AB80-4749-9D88-0A952F399617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49C7C9E4-F5F1-47F4-BFF8-70E153F417D0}
+	EndGlobalSection
+EndGlobal
