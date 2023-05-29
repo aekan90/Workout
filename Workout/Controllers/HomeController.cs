@@ -1,4 +1,4 @@
-﻿using ConsoleLayer.LinQ;
+﻿using ClassLibraryLayer.LinQ;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

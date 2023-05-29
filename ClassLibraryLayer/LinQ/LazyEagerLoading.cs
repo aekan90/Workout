@@ -1,8 +1,8 @@
-﻿using ConsoleLayer.Core;
+﻿using ClassLibraryLayer.Core;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
-namespace ConsoleLayer.LinQ
+namespace ClassLibraryLayer.LinQ
 {
     public class LazyEagerLoading
     {

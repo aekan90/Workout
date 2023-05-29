@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleLayer\ConsoleLayer.csproj" />
+    <ProjectReference Include="..\ClassLibraryLayer\ClassLibraryLayer.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 
 </Project>

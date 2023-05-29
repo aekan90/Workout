@@ -2,7 +2,7 @@
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
-namespace ConsoleLayer.Core
+namespace ClassLibraryLayer.Core
 {
     // Context (bağlam) : Db taboları ile  Entityleri birbirine bağlar
     public class NorthwindContext : DbContext
