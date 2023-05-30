@@ -2,6 +2,7 @@
 using System;
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 public static class Program
 {
@@ -33,6 +34,15 @@ public static class Program
                     Console.WriteLine("Thread: " + Thread.CurrentThread.ManagedThreadId + " Eklenen sayı: " + number);
                     numbers.Add(number);
                     Thread.Sleep(100);  // Senkronizasyonu vurgulamak için bir bekleme süresi
+                }
+            }
+
+
+            Public List<Hotel> GetAllHotels()
+            {
+                using (var hotelDbContext=new HotelDbContext())
+                {
+                    return hotelDbContext.Hotes.ToList();
                 }
             }
 
