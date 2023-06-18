@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppLayer._4_TemelKavramlar.ConstructorTurleri
+﻿namespace ConsoleAppLayer._4_TemelKavramlar.ConstructorTurleri
 {
     public class _3_CopyConstructor
     {
@@ -13,9 +7,10 @@ namespace ConsoleAppLayer._4_TemelKavramlar.ConstructorTurleri
         {
             // Person nesnesi oluşturma
             Person originalPerson = new Person { Name = "John Doe", Age = 30 };
+            Person copiedPerson = new Person { Name = "Hasan Kara", Age = 33 };
 
             // Başka bir nesnenin değerlerini kopyalama
-            Person copiedPerson = new Person(originalPerson);
+            //Person copiedPerson = new Person(originalPerson);
 
             // Değerleri yazdırma
             Console.WriteLine("Original Person: Name={0}, Age={1}", originalPerson.Name, originalPerson.Age);
@@ -23,7 +18,21 @@ namespace ConsoleAppLayer._4_TemelKavramlar.ConstructorTurleri
         }
 
 
-        public class Person
+        //public static void Main(string[] args)
+        //{
+        //    Person originalPerson = new Person { Name = "John Doe", Age = 30 };
+
+        //    Person copiedPerson = new Person(originalPerson);
+
+        //    //copiedPerson = originalPerson;
+        //    originalPerson.Name = "Ahmet";
+
+        //    Console.WriteLine("Original Person: Name={0}, Age={1}", originalPerson.Name, originalPerson.Age);
+        //    Console.WriteLine("Copied Person: Name={0}, Age={1}", copiedPerson.Name, copiedPerson.Age);
+        //}
+
+
+         class Person
         {
             public string Name;
             public int Age;

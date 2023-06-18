@@ -7,21 +7,32 @@ using System.Threading.Tasks;
 namespace ConsoleAppLayer._4_TemelKavramlar.ConstructorTurleri
 {
     internal class _4_StatikConstructor
-    { 
-        // Statik constructor çağrılır ve LogFileName özelliği ayarlanır
-        string logFile = Logger.LogFileName;
-    }
-
-    class Logger
     {
-        public static string LogFileName;
-
-        // Statik constructor
-        static Logger()
+        class MyClass
         {
-            LogFileName = "log.txt";
+            public static int Counter { get; set; }
+            public static string Message { get; set; }
+
+            static MyClass()
+            {
+                Counter = 0;
+                Message = "Hello, World!";
+                Console.WriteLine("Static constructor is called.");
+            }
         }
+
+        class Program
+        {
+            //static void Main(string[] args)
+            //{
+            //    Console.WriteLine(MyClass.Counter); // Static constructor is called. 0
+            //    Console.WriteLine(MyClass.Message); // Hello, World!
+            //    Console.WriteLine(MyClass.Counter); // 0 (Çünkü statik elemanlar bir kez başlatıldı)
+            //}
+        }
+
     }
+
 
 
 

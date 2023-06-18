@@ -23,9 +23,9 @@ namespace ConsoleAppLayer.TemelKavramlar
 
         }
 
-        static void Main(string[] args)
-        {
-            metot();
-        }
+        //static void Main(string[] args)
+        //{
+        //    metot();
+        //}
     }
 }
